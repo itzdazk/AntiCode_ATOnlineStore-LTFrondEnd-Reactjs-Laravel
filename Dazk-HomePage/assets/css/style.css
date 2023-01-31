@@ -1,0 +1,169 @@
+/* header */
+.header__topbar {
+  background-color: rgb(231, 231, 231);
+}
+
+.header__navbar {
+  width: 100%;
+}
+
+.header__navbar-tools__cart-icon:hover {
+  background-color: var(--white-color);
+}
+
+.search-btn:hover {
+  background-color: var(--white-color);
+}
+
+.header__navbar-tools__cart-items p {
+  font-size: 10px;
+}
+
+.header__navbar-menu-lg a:hover {
+  border-bottom: 2px solid var(--white-color);
+}
+
+.header__new-list .header__new-list-item {
+  color: rgb(150, 150, 150);
+  font-size: 13px;
+  line-height: 30px;
+  border-top: 1px rgb(214, 214, 214) solid;
+}
+
+.header__new-list .header__new-list-item:hover {
+  color: black;
+}
+
+.header__new-item a {
+  font-size: 9px;
+}
+
+.chevron-down-icon {
+  opacity: 100%;
+  font-size: 12px;
+}
+
+.header__navbar-menu-item-new:hover .chevron-down-icon {
+  opacity: 75%;
+  animation: rotate 0.3s linear;
+}
+
+.header__new {
+  display: none;
+}
+
+.header__navbar-menu-item-new:hover .header__new,
+.header__new:hover {
+  display: block;
+  animation: flyin 0.1s linear;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header__navbar-menu-item a {
+  color: var(--white-color);
+}
+
+/* body */
+
+body {
+  height: 10000px;
+}
+
+/* footer */
+
+.footer {
+  padding-top: 300px;
+  color: black;
+}
+
+/* footer contacts */
+.footer__contacts {
+  background-color: rgb(231, 231, 231);
+  padding: 100px 0 30px 0;
+}
+
+.footer__contacts-col {
+  text-align: center;
+}
+
+.contacts--tittle {
+  font-size: 17px;
+  font-style: inherit;
+  margin-bottom: 20px;
+}
+
+.contats--pa-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.contats--pa {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.contats--pa-item a {
+  color: var(--black-color);
+  margin-bottom: 20px;
+}
+
+/* footer letter */
+
+.footer__letter {
+  background-color: rgb(231, 231, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.footer__letter-area {
+  border: 1px solid rgb(207, 207, 207);
+  background-color: white;
+  padding: 25px 10px;
+}
+
+.letter-icon {
+  font-size: 28px;
+  margin: 0 20px;
+}
+
+.letter-tittle {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.text__email-receive {
+  width: 90%;
+  outline: none;
+  border: 0;
+  border-right: 1px solid black;
+}
+
+.letter-area-right {
+  border-bottom: 1px solid black;
+}
+
+.submit-btn-email {
+  background-color: white;
+  font-size: 30px;
+  border: 0;
+  color: rgb(109, 107, 107);
+}
+
+.submit-btn-email:hover {
+  color: rgb(0, 0, 0);
+}
+
+/* footer copyright */
+
+.footer_copyright-col {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 15px 0;
+}
