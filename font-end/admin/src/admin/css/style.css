@@ -1,0 +1,21 @@
+.table > :not(:first-child) {
+  border-top: none !important;
+}
+
+.bt-5 {
+  border-top-width: 5px;
+}
+
+.required::after {
+  content: "*";
+  color: red;
+  margin-left: 3px;
+}
+
+.login-form {
+  height: 100vh;
+}
+
+.img-table {
+  width: 100px;
+}
